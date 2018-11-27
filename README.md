@@ -1,5 +1,7 @@
-# java-modules-illustration
-Java 9 Modules 
+# Java Modules Illustration
+
+This project demonstrates Java Modules introduced since Java 9. Java Modules is a result of the now widely known Jigsaw project.
+Born the Java Platform Modules System.
 
 ## Listing Modules
 
