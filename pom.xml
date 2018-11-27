@@ -3,10 +3,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mycompany.java9modulesillustration</groupId>
   <artifactId>java9-modules-illustration</artifactId>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>java9-modules-illustration</name>
   <url>http://maven.apache.org</url>
+
+  <modules>
+    <module>com.mycompany.books</module>
+    <module>com.mycompany.greetings</module>
+    <module>com.mycompany.mainapp</module>
+  </modules>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -23,7 +30,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
-            <release>10</release>
+          <release>10</release>
         </configuration>
       </plugin>
     </plugins>
